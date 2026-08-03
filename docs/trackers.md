@@ -1,25 +1,27 @@
 ---
 title: CalculatorAI trackers
-description: Nine long-running trackers — trading journal, portfolio, expenses, budget, debt payoff, rental income, invoices, habits and QR codes — under one account.
+description: Long-running trackers — trading journal, portfolio, expenses, budget, debt payoff, rental income, invoices, habits and QR codes — under one account.
 ---
 
 # Trackers
 
-Where a calculator answers one question now, a **tracker** remembers. Nine of them share one account, one Pro tier and one bill. Every tracker: multi-currency, CSV export free on any plan, soft-delete with a Trash bin, and a demo mode so you can see the full UI before signing up.
+Where a calculator answers one question now, a **tracker** remembers. They all share one account, one Pro tier and one bill. Every tracker: multi-currency, CSV export free on any plan, soft-delete with a Trash bin, and a demo mode so you can see the full UI before signing up.
 
 Index page: **<https://calculatorai.app/trackers>**
 
-| Tracker | URL | Records |
+<!-- gen:trackers start -->
+| Tracker | URL | What it records |
 |---|---|---|
-| [Trading Journal](https://calculatorai.app/trading-journal) | `/trading-journal` | Individual trades across every asset class |
-| [Portfolio Tracker](https://calculatorai.app/portfolio-tracker) | `/portfolio-tracker` | Standing positions and what they're worth now |
-| [Expenses Tracker](https://calculatorai.app/expenses) | `/expenses` | Income and spending, month over month |
-| [Budget Tracker](https://calculatorai.app/budget-tracker) | `/budget-tracker` | The plan the spending is measured against |
-| [Debt Payoff Tracker](https://calculatorai.app/debt-payoff-tracker) | `/debt-payoff-tracker` | Every balance owed and a real debt-free date |
-| [Rental Income Tracker](https://calculatorai.app/rental-income) | `/rental-income` | Properties, rent, expenses, investor metrics |
-| [Invoices Tracker](https://calculatorai.app/invoices) | `/invoices` | Invoices issued, and who hasn't paid |
-| [Habit Tracker](https://calculatorai.app/habit-tracker) | `/habit-tracker` | Daily routines and streaks |
-| [QR Codes Tracker](https://calculatorai.app/qr-codes) | `/qr-codes` | Dynamic QR codes and their scan analytics |
+| [Trading Journal](https://calculatorai.app/trading-journal) | `/trading-journal` | Log trades across crypto, forex, stock, futures, options, swing, scalping and sports betting. Live stats, win rate, P&L curve. |
+| [Portfolio Tracker](https://calculatorai.app/portfolio-tracker) | `/portfolio-tracker` | Free live portfolio tracker for stocks, crypto & ETFs. Auto-import, real-time prices, and smart AI insights in one place. |
+| [Invoices Tracker](https://calculatorai.app/invoices) | `/invoices` | Issue, send, track paid / overdue invoices, and project receivables. |
+| [Expenses Tracker](https://calculatorai.app/expenses) | `/expenses` | Categorise expenses with auto-rules, attach receipts, export for accounting. |
+| [QR Codes](https://calculatorai.app/qr-codes) | `/qr-codes` | Manage your dynamic QR codes and track scans — devices, locations and trends. |
+| [Rental Income Tracker](https://calculatorai.app/rental-income) | `/rental-income` | Per-property rental cash-flow, occupancy, expenses, repairs and ROI. |
+| [Budget Tracker](https://calculatorai.app/budget-tracker) | `/budget-tracker` | Zero-based budgeting, envelopes, sinking funds — built to keep you on plan. |
+| [Debt Payoff Tracker](https://calculatorai.app/debt-payoff-tracker) | `/debt-payoff-tracker` | Snowball / avalanche schedules, payoff dates, interest saved. |
+| [Habit Tracker](https://calculatorai.app/habit-tracker) | `/habit-tracker` | Free habit tracker for daily routines, streaks, weekly consistency and simple progress reviews. |
+<!-- gen:trackers end -->
 
 Every tracker also has a **public methodology handbook** explaining how each number is calculated and what the tool deliberately does not model — no login required. Index: <https://calculatorai.app/handbook>.
 

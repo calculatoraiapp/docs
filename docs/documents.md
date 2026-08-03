@@ -1,31 +1,33 @@
 ---
 title: CalculatorAI document generators
-description: Eleven free business document generators — invoice, quote, purchase order, receipt, credit note, proforma, commercial invoice, timesheet and QR codes. No watermarks.
+description: Free business document generators — invoice, quote, purchase order, receipt, credit note, proforma, commercial invoice, timesheet and QR codes. No watermarks.
 ---
 
 # Document generators
 
-Eleven professional generators, each at its own URL, producing print-quality PDFs and vector assets. **No watermarks on anything you generate — ever, on any plan.** That is a stated product promise, not a trial limitation.
+Professional generators, each at its own URL, producing print-quality PDFs and vector assets. **No watermarks on anything you generate — ever, on any plan.** That is a stated product promise, not a trial limitation.
 
 Index page: **<https://calculatorai.app/documents>**
 
+<!-- gen:documents start -->
 | Document | URL | Use it for |
 |---|---|---|
-| [Invoice generator](https://calculatorai.app/invoice-generator) | `/invoice-generator` | Commercial invoices — Net 15/30/60 terms, VAT / sales tax / GST, IBAN / SWIFT / routing details, drawn signature |
-| [Quote / estimate](https://calculatorai.app/quote-template) | `/quote-template` | Quotes with validity windows and scope of work; converts to an invoice on acceptance |
-| [Purchase order](https://calculatorai.app/purchase-order-template) | `/purchase-order-template` | B2B POs with Incoterms (FOB, EXW, DDP), PO numbers, three-way matching |
-| [Receipt](https://calculatorai.app/receipt-generator) | `/receipt-generator` | Payment confirmations, cash vs card, warranty proof |
-| [Credit note](https://calculatorai.app/credit-note-template) | `/credit-note-template` | Refunds and billing corrections referencing the original invoice |
-| [Debit note](https://calculatorai.app/debit-note-template) | `/debit-note-template` | Added B2B charges with a reference trail |
-| [Proforma invoice](https://calculatorai.app/proforma-invoice) | `/proforma-invoice` | Pre-shipment, customs, letters of credit |
-| [Delivery note / packing slip](https://calculatorai.app/delivery-note-template) | `/delivery-note-template` | Quantities, sender / receiver, signature line, no financial fields |
-| [Timesheet](https://calculatorai.app/timesheet-template) | `/timesheet-template` | Billable hours, project / task split, approval flow |
-| [Commercial invoice](https://calculatorai.app/commercial-invoice) | `/commercial-invoice` | International trade — customs data, AWB/BL numbers, package counts, gross/net weights, Incoterms, per-line HS codes and country of origin |
-| [QR code generator](https://calculatorai.app/qr-code-generator) | `/qr-code-generator` | Static and dynamic QR codes with custom dots, corners, colours, gradients and logo; PNG/SVG export |
+| [QR Code Generator](https://calculatorai.app/qr-code-generator) | `/qr-code-generator` | Create static or dynamic tracked QR codes under your own brand. Customize colors, add logo and track scans. |
+| [Invoice Generator](https://calculatorai.app/invoice-generator) | `/invoice-generator` | Create polished invoices with line items, tax, discount and your own branding. AI fills the items from a one-line description. |
+| [Quote Template](https://calculatorai.app/quote-template) | `/quote-template` | Send professional quotes to clients before the work starts. Convert to an invoice with one click. |
+| [Receipt Generator](https://calculatorai.app/receipt-generator) | `/receipt-generator` | Generate clean receipts for cash, card or bank transfer payments. Perfect for freelancers and small businesses. |
+| [Credit Note Template](https://calculatorai.app/credit-note-template) | `/credit-note-template` | Issue credit notes for refunds, returns or invoice corrections. Links back to the original invoice. |
+| [Purchase Order Template](https://calculatorai.app/purchase-order-template) | `/purchase-order-template` | Send purchase orders to suppliers with item lists, delivery terms and reference numbers. |
+| [Proforma Invoice](https://calculatorai.app/proforma-invoice) | `/proforma-invoice` | Create preliminary commercial invoices for customs, shipping or securing advance payments. |
+| [Delivery Note Template](https://calculatorai.app/delivery-note-template) | `/delivery-note-template` | Generate packing slips and delivery receipts without financial fields. Sign upon delivery. |
+| [Debit Note Template](https://calculatorai.app/debit-note-template) | `/debit-note-template` | Issue debit memos to adjust invoices, request billing increases or correct ledger errors. |
+| [Timesheet Template](https://calculatorai.app/timesheet-template) | `/timesheet-template` | Track hourly service tasks, consultant hours and work logs, with total cost automatically computed. |
+| [Commercial Invoice](https://calculatorai.app/commercial-invoice) | `/commercial-invoice` | Generate commercial invoices for customs clearance, export documentation, and international shipping. |
+<!-- gen:documents end -->
 
 ---
 
-## Shared across all ten accounting documents
+## Shared across every accounting document
 
 They share one editor and one PDF pipeline, so every feature below works everywhere:
 

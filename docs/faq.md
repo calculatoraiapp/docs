@@ -8,7 +8,7 @@ description: Short answers about embedding calculators, pricing, the AI, data ow
 ## Embedding
 
 **Can I put a CalculatorAI calculator on my website?**
-Yes — any of the [75 calculators](calculators.md), on any site including commercial ones. One line of HTML, no account, no API key, no approval, no fee. [Full guide](embed-widget.md).
+Yes — any calculator in the [index](calculators.md), on any site including commercial ones. One line of HTML, no account, no API key, no approval, no fee. [Full guide](embed-widget.md).
 
 **What does it cost?**
 Nothing. The condition is that the CalculatorAI credit stays visible — the brand line inside the widget and the link beneath it.

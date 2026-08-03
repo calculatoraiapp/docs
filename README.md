@@ -1,6 +1,8 @@
 # CalculatorAI — Documentation
 
+<!-- gen:summary start -->
 **[CalculatorAI](https://calculatorai.app)** is an AI-powered financial workspace: **75 calculators**, **9 trackers** and **11 document generators** under one account, in **10 languages**, with an AI copilot woven through all of them.
+<!-- gen:summary end -->
 
 This repository is the public documentation for the platform — what it does, how each number is calculated, what the AI can and cannot see, and how to **embed any calculator on your own website with one line of HTML**, for free.
 
@@ -13,7 +15,7 @@ This repository is the public documentation for the platform — what it does, h
 | Document | What's in it |
 |---|---|
 | **[Embed a calculator on your site](docs/embed-widget.md)** | The one-line snippet, every option, the resize protocol, framework examples, terms of use |
-| **[Calculator index](docs/calculators.md)** | All 75 calculators with direct links, grouped by category |
+| **[Calculator index](docs/calculators.md)** | Every calculator with a direct link and its embed slug, grouped by category |
 | **[Trackers](docs/trackers.md)** | The 9 long-running trackers and what each one records |
 | **[Document generators](docs/documents.md)** | 11 business document tools (invoice, quote, PO, receipt…) |
 | **[AI assistant](docs/ai-assistant.md)** | The six AI surfaces, what each one knows, and the privacy boundary |
@@ -53,17 +55,21 @@ Ready-made integrations live in **[`examples/`](examples/)** — plain HTML, Rea
 
 ## What the platform is, in one table
 
+<!-- gen:glance start -->
 | | |
 |---|---|
 | Calculators | **75**, across **13 categories** |
-| Trackers | **9** — trading journal, portfolio, expenses, budget, debt payoff, rental income, habits, invoices, QR codes |
-| Document generators | **11** — invoice, quote, receipt, purchase order, credit note, debit note, delivery note, proforma invoice, commercial invoice, timesheet, QR code |
-| Languages | **10** — English, Russian, Spanish, German, French, Italian, Portuguese, Japanese, Turkish, Chinese |
-| Price | Free tier with daily limits · **30 days of Pro on signup, no credit card, no auto-charge** · Pro **$14.99/mo** or **$119/yr** |
+| Trackers | **9** — Trading Journal, Portfolio Tracker, Invoices Tracker, Expenses Tracker, QR Codes, Rental Income Tracker, Budget Tracker, Debt Payoff Tracker, Habit Tracker |
+| Document generators | **11** — QR Code Generator, Invoice Generator, Quote Template, Receipt Generator, Credit Note Template, Purchase Order Template, Proforma Invoice, Delivery Note Template, Debit Note Template, Timesheet Template, Commercial Invoice |
+| Languages | **10** — en, ru, zh, es, de, it, fr, ja, pt, tr |
+| Price | Free tier with daily limits · **30 days of Pro on signup, no credit card, no auto-charge** · Pro **<!-- gen:glance start -->
+4.99/mo** or **<!-- gen:glance start -->
+19/yr** |
 | Exports | CSV export of your own data is free on every tier, with no row caps |
 | Read-only connections | Binance, Bybit, OKX, KuCoin, Kraken and Coinbase via API key; EVM, Solana, Bitcoin and 20+ other chains by wallet address |
 | Public API | None. Calculators are instead **embeddable** on any site with one line of HTML, free |
 | Embedding | Free for commercial sites, no key, no cap — see the [embed guide](docs/embed-widget.md) |
+<!-- gen:glance end -->
 
 ---
 

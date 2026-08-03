@@ -1,6 +1,6 @@
 ---
 title: Embed a free calculator widget on your website
-description: Put any of the 75 CalculatorAI calculators on your own site with one line of HTML. Free, no API key, 10 languages, auto-resizing.
+description: Put any CalculatorAI calculator on your own site with one line of HTML. Free, no API key, 10 languages, auto-resizing.
 ---
 
 # Embed a calculator widget on your website
@@ -20,7 +20,7 @@ Every calculator on [CalculatorAI](https://calculatorai.app) can live on **someo
 https://calculatorai.app/embed/<slug>
 ```
 
-`<slug>` is any calculator slug — `mortgage-calculator`, `compound-interest-calculator`, `roi-calculator`, `bmi-calculator`, and [72 more](calculators.md).
+`<slug>` is any calculator slug — `mortgage-calculator`, `compound-interest-calculator`, `roi-calculator`, `bmi-calculator`, and [every other one in the index](calculators.md).
 
 That URL is a complete, self-contained calculator page designed to be framed. Open it directly in a browser to preview exactly what your readers will see.
 
@@ -208,4 +208,4 @@ Still stuck? [Open an issue](https://github.com/calculatoraiapp/docs/issues) or 
 
 ---
 
-*Back to the [documentation index](../README.md) · Browse all [75 calculators](calculators.md) · Build a snippet at [calculatorai.app/embed](https://calculatorai.app/embed)*
+*Back to the [documentation index](../README.md) · Browse [every calculator](calculators.md) · Build a snippet at [calculatorai.app/embed](https://calculatorai.app/embed)*
