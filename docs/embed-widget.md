@@ -213,6 +213,8 @@ Your readers get the whole generator: URL, text, WiFi, vCard, email, phone, SMS,
 
 **Why this one and not the invoice generator.** Everything above happens in your reader's browser — the matrix, the SVG, the canvas that produces the PNG. The widget makes no request of ours no matter how many codes it produces, which is what makes it free to hand out. The document generators render their PDF on a server, so they are not embeddable yet; that's an engineering constraint, not a licensing one.
 
+**Width.** The default here is **1200**, not the 1600 the calculators take. That number exists to clear the calculators' 1366px two-column breakpoint; this widget caps its own content at 1152 — the same container the public page uses — so anything wider only pads the frame with background. It still shrinks to fit a narrower column, and stacks into a single column on small screens.
+
 **What's left out.** Dynamic (tracked) QR codes — the kind whose destination you can change after the poster is printed, and whose scans you can count by country, device and browser. Those need a short link hosted on our domain and an account to own it, and a widget has neither: browsers partition storage inside third-party iframes, so nobody can be signed in. The Dynamic tab is therefore a link to the full tool rather than a mode that would dead-end.
 
 That boundary is deliberate and it works in your favour too: your reader gets a genuinely complete free tool, and only the person who needs printing-proof codes leaves your page.
