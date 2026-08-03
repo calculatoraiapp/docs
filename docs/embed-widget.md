@@ -38,7 +38,9 @@ That URL is a complete, self-contained page designed to be framed. Open it direc
 ></iframe>
 ```
 
-This works immediately. It has one weakness — a fixed height — which the [full snippet](#4-the-full-snippet-recommended) below solves.
+This works immediately, but it has one real weakness: **the height is fixed**, so anything taller than 720px gets an inner scrollbar inside your page. The [full snippet](#4-the-full-snippet-recommended) below solves that, and it is what the builder gives you.
+
+> **If your CMS strips `<script>` tags** — WordPress without a plugin, Wix, Squarespace, Ghost and most block editors do — you are stuck with this fixed-height version whether you meant to be or not. In that case set `height` to something close to the widget's real height instead of leaving 720: roughly **1400** for the QR generator at its default width, and for a calculator, load `https://calculatorai.app/embed/<slug>` directly, measure how tall it renders at your column width, and use that. The widget will still be the right width and fully usable; you are only giving up the automatic resize.
 
 ## 3. Options
 
@@ -213,6 +215,8 @@ Your readers get the whole generator: URL, text, WiFi, vCard, email, phone, SMS,
 
 **Why this one and not the invoice generator.** Everything above happens in your reader's browser — the matrix, the SVG, the canvas that produces the PNG. The widget makes no request of ours no matter how many codes it produces, which is what makes it free to hand out. The document generators render their PDF on a server, so they are not embeddable yet; that's an engineering constraint, not a licensing one.
 
+**Height.** The builder gives this widget a fallback `height` of **1400**, not the 720 a calculator gets. That number only matters until the resize script reports the real height — but it matters permanently on a host that strips scripts, and 1400 is what the widget actually measures at its default width (1355px, rounded up). On a narrow column it stacks and grows to about 1940px, so the script is still worth having.
+
 **Width.** The default here is **1200**, not the 1600 the calculators take. That number exists to clear the calculators' 1366px two-column breakpoint; this widget caps its own content at 1152 — the same container the public page uses — so anything wider only pads the frame with background. It still shrinks to fit a narrower column, and stacks into a single column on small screens.
 
 **What's left out.** Dynamic (tracked) QR codes — the kind whose destination you can change after the poster is printed, and whose scans you can count by country, device and browser. Those need a short link hosted on our domain and an account to own it, and a widget has neither: browsers partition storage inside third-party iframes, so nobody can be signed in. The Dynamic tab is therefore a link to the full tool rather than a mode that would dead-end.
@@ -225,6 +229,7 @@ That boundary is deliberate and it works in your favour too: your reader gets a 
 |---|---|---|
 | Widget shows the compact tabbed layout on desktop | Container narrower than ~1600px — the breakpoint measures the *iframe* | Widen the container, or accept the tabbed layout |
 | Inner scrollbar, content cut off | The resize script isn't running | Check the `<script>` is on the page and the `src` selector matches your URL exactly, query string included |
+| Inner scrollbar, and the script is definitely in what you pasted | Your CMS stripped it — very common on WordPress without a plugin, Wix, Squarespace, Ghost and block editors | View the published page's source: if there is no `<script>`, raise the `height` attribute to the widget's real height ([details](#2-the-minimal-snippet)). On WordPress, the [shortcode plugin](../examples/wordpress/calculatorai-shortcode.php) enqueues the script properly and avoids this entirely |
 | Height never updates | `e.origin` check failing, or `slug` mismatch | Origin must be exactly `https://calculatorai.app`; `SLUG` must match the URL path |
 | Sticky inputs column doesn't stick | Viewport messages aren't being sent | Add the `scroll` / `resize` listeners from part 4 |
 | Blank frame | Content blocker, or a CSP on your site | Allow `https://calculatorai.app` in `frame-src` |
