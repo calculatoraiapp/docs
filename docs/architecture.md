@@ -5,7 +5,7 @@ description: The stack behind CalculatorAI — Next.js, Supabase, Vercel, Stripe
 
 # How it's built
 
-CalculatorAI is a hosted product and its application source is closed. This page documents the stack and the engineering constraints it lives under — partly so integrators know what they're framing, partly because a few of these lessons cost real money to learn and are worth writing down.
+[CalculatorAI](https://calculatorai.app) is a hosted product and its application source is closed. This page documents the stack and the engineering constraints it lives under — partly so integrators know what they're framing, partly because a few of these lessons cost real money to learn and are worth writing down.
 
 ## Stack
 
@@ -52,7 +52,7 @@ curl -s -o /dev/null -D - https://calculatorai.app/<path> | grep -i x-nextjs-cac
 
 ## The embed widget
 
-The [embeddable calculator](embed-widget.md) is a normal route rendered for framing. Because a cross-origin iframe can neither read its parent's scroll position nor inherit its theme, the host and widget exchange two namespaced `postMessage` types — the widget reports its content height, the host forwards its viewport position. Full protocol in the [embed guide](embed-widget.md#5-the-postmessage-protocol).
+The [embeddable calculator](embed-widget.md) — [try the builder](https://calculatorai.app/embed) — is a normal route rendered for framing. Because a cross-origin iframe can neither read its parent's scroll position nor inherit its theme, the host and widget exchange two namespaced `postMessage` types — the widget reports its content height, the host forwards its viewport position. Full protocol in the [embed guide](embed-widget.md#5-the-postmessage-protocol).
 
 One consequence worth knowing before you frame it: **CSS media queries inside an iframe measure the iframe, not the screen.** The desktop two-column layout switches on at 1366px, so a widget in a 900px column renders the compact layout on a 27-inch monitor. That is correct behaviour and the most common integration surprise.
 

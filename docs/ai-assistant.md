@@ -5,7 +5,7 @@ description: Six AI surfaces built on Anthropic's Claude — what each one knows
 
 # The AI assistant
 
-The AI isn't bolted onto CalculatorAI — it runs through every product. There are **six distinct AI surfaces**, each with its own focus and its own knowledge, all built on **[Anthropic's Claude](https://www.anthropic.com/)** via the business API.
+The AI isn't bolted onto [CalculatorAI](https://calculatorai.app) — it runs through every product. There are **six distinct AI surfaces**, each with its own focus and its own knowledge, all built on **[Anthropic's Claude](https://www.anthropic.com/)** via the business API.
 
 **The boundary, stated once and enforced everywhere:** the AI sees **only your own data, only when you ask**. Another person's data is never in your assistant's context, and yours is never in theirs. Inputs and outputs sent through Anthropic's API are **not used to train their models**, and CalculatorAI trains no model of its own. See [security & privacy](security-and-privacy.md).
 
@@ -53,7 +53,7 @@ In every [document generator](documents.md): a natural-language prompt that writ
 
 ## 6. Site assistant — the floating button
 
-The chat on every page, and the **only** surface with cross-product context.
+The chat on every page of [calculatorai.app](https://calculatorai.app), and the **only** surface with cross-product context.
 
 > *"How am I doing this month — both trading and invoices?"*
 > *"Which calculator should I use to figure out a 401(k) rollover?"*
