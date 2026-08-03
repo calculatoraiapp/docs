@@ -5,7 +5,7 @@ description: Put any CalculatorAI calculator on your own site with one line of H
 
 # Embed a calculator widget on your website
 
-Every calculator on [CalculatorAI](https://calculatorai.app) can live on **someone else's** site — a blog post explaining mortgages, an agency page, a course, a broker's help centre, a company intranet.
+Every calculator on [CalculatorAI](https://calculatorai.app) — **and the QR code generator** — can live on **someone else's** site: a blog post explaining mortgages, an agency page, a course, a broker's help centre, a restaurant's menu page, a company intranet.
 
 **It takes one line of code, it costs nothing, and it works on any platform that lets you paste HTML.** There is nothing to install, no account to create, no API key to request, and nothing to approve.
 
@@ -20,9 +20,9 @@ Every calculator on [CalculatorAI](https://calculatorai.app) can live on **someo
 https://calculatorai.app/embed/<slug>
 ```
 
-`<slug>` is any calculator slug — `mortgage-calculator`, `compound-interest-calculator`, `roi-calculator`, `bmi-calculator`, and [every other one in the index](calculators.md).
+`<slug>` is any calculator slug — `mortgage-calculator`, `compound-interest-calculator`, `roi-calculator`, `bmi-calculator`, and [every other one in the index](calculators.md) — or **`qr-code-generator`**, which is a tool rather than a calculator (see [below](#9-the-qr-code-generator-widget)).
 
-That URL is a complete, self-contained calculator page designed to be framed. Open it directly in a browser to preview exactly what your readers will see.
+That URL is a complete, self-contained page designed to be framed. Open it directly in a browser to preview exactly what your readers will see.
 
 ## 2. The minimal snippet
 
@@ -47,7 +47,7 @@ All options are query parameters on the embed URL.
 | Parameter | Values | Default | What it does |
 |---|---|---|---|
 | `lang` | `en` `ru` `es` `de` `fr` `it` `pt` `ja` `tr` `zh` | `en` | Widget UI language. Omit for English. |
-| `currency` | `USD` `EUR` `GBP` `CAD` `AUD` `CHF` `JPY` `PLN` `INR` `BRL` | visitor's region | Pins the currency. Omit to let each visitor's own region decide. |
+| `currency` | `USD` `EUR` `GBP` `CAD` `AUD` `CHF` `JPY` `PLN` `INR` `BRL` | visitor's region | Pins the currency. Omit to let each visitor's own region decide. Ignored by the QR widget — a QR code holds no money. |
 | `theme` | `light` `dark` `auto` | `light` | `auto` follows the reader's OS colour scheme. |
 
 ```
@@ -193,7 +193,31 @@ The snippet contains two links, doing two different jobs. The brand line **insid
 
 Its anchor text is branded and identical for everybody on purpose. Distributing widgets whose links carry keyword-stuffed, per-site anchor text is a documented link scheme, and the penalty would land on CalculatorAI, not on the sites that embedded it. If you'd rather not link out at all, remove the caption paragraph and keep the iframe — the in-frame credit is the part that must stay.
 
-## 9. Troubleshooting
+## 9. The QR code generator widget
+
+Same snippet, same options, one different slug:
+
+```html
+<iframe
+  src="https://calculatorai.app/embed/qr-code-generator?theme=auto"
+  title="QR Code Generator — CalculatorAI"
+  width="100%"
+  height="720"
+  style="border:1px solid #e5e7eb;border-radius:16px;min-width:320px"
+  loading="lazy"
+  referrerpolicy="strict-origin-when-cross-origin"
+></iframe>
+```
+
+Your readers get the whole generator: URL, text, WiFi, vCard, email, phone, SMS, WhatsApp, location, event and crypto payloads; background and foreground colours with an optional gradient; eight corner frames, eight corner centres and ten body shapes; four error-correction levels; a centre logo they upload or pick from the icon set; adjustable quiet zone — and **PNG (1200×1200) and vector SVG download**. No account, no watermark, no cap.
+
+**Why this one and not the invoice generator.** Everything above happens in your reader's browser — the matrix, the SVG, the canvas that produces the PNG. The widget makes no request of ours no matter how many codes it produces, which is what makes it free to hand out. The document generators render their PDF on a server, so they are not embeddable yet; that's an engineering constraint, not a licensing one.
+
+**What's left out.** Dynamic (tracked) QR codes — the kind whose destination you can change after the poster is printed, and whose scans you can count by country, device and browser. Those need a short link hosted on our domain and an account to own it, and a widget has neither: browsers partition storage inside third-party iframes, so nobody can be signed in. The Dynamic tab is therefore a link to the full tool rather than a mode that would dead-end.
+
+That boundary is deliberate and it works in your favour too: your reader gets a genuinely complete free tool, and only the person who needs printing-proof codes leaves your page.
+
+## 10. Troubleshooting
 
 | Symptom | Cause | Fix |
 |---|---|---|

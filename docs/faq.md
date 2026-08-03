@@ -22,6 +22,12 @@ Yes — `?lang=` and `?currency=` on the embed URL. Ten languages, ten pinned cu
 **Why does my embed look like the mobile layout on desktop?**
 Because media queries inside an iframe measure the **iframe**, not the screen. Give the container ~1600px for the two-column desktop layout. [More](embed-widget.md#width--the-one-setting-that-isnt-a-url-parameter).
 
+**Can I embed the QR code generator too?**
+Yes — slug `qr-code-generator`, same snippet and options. Your readers get the full generator including PNG and vector SVG download, with no account and no watermark. Dynamic (tracked) codes are the one thing left out, because they need a short link hosted on our domain and an account to own it. [Details](embed-widget.md#9-the-qr-code-generator-widget).
+
+**What about the invoice generator and the other document tools?**
+Not yet. Their PDF is rendered on a server, and a widget on someone else's page has no ceiling on how often that gets called. They become embeddable once the render moves into the browser — the same property that makes the calculators and the QR generator free to hand out.
+
 **Is there a public API?**
 No. Embedding is the supported integration path.
 
