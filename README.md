@@ -83,6 +83,6 @@ It documents a hosted product; the application source is not open. What *is* her
 - a stable, linkable **index of every calculator**,
 - honest documentation of **what the AI sees** and **how data is isolated**.
 
-Found something wrong or out of date? [Open an issue](https://github.com/Gadzilla1995/calculatorai-docs/issues) — documentation corrections are welcome.
+Found something wrong or out of date? [Open an issue](https://github.com/calculatoraiapp/docs/issues) — documentation corrections are welcome.
 
 **License:** code samples in [`examples/`](examples/) are MIT ([LICENSE](LICENSE)). Documentation prose is © CalculatorAI.

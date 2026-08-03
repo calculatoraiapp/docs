@@ -34,7 +34,7 @@ interface HeightMessage {
  * Must be a client component — it listens for postMessage and reads layout.
  * Import it from a server page directly; 'use client' above is enough.
  *
- * Guide: https://github.com/Gadzilla1995/calculatorai-docs/blob/main/docs/embed-widget.md
+ * Guide: https://github.com/calculatoraiapp/docs/blob/main/docs/embed-widget.md
  */
 export default function CalculatorEmbed({
   slug,

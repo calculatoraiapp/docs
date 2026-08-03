@@ -7,8 +7,8 @@ const SITE = 'https://calculatorai.app'
  *
  * <CalculatorEmbed slug="mortgage-calculator" title="Mortgage Calculator" theme="auto" />
  *
- * Slugs: https://github.com/Gadzilla1995/calculatorai-docs/blob/main/docs/calculators.md
- * Guide: https://github.com/Gadzilla1995/calculatorai-docs/blob/main/docs/embed-widget.md
+ * Slugs: https://github.com/calculatoraiapp/docs/blob/main/docs/calculators.md
+ * Guide: https://github.com/calculatoraiapp/docs/blob/main/docs/embed-widget.md
  */
 export default function CalculatorEmbed({
   slug,

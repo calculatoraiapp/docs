@@ -4,13 +4,13 @@
  * Description: Shortcode for embedding any CalculatorAI calculator. [calculatorai slug="mortgage-calculator"]
  * Version:     1.0.0
  * License:     MIT
- * Plugin URI:  https://github.com/Gadzilla1995/calculatorai-docs
+ * Plugin URI:  https://github.com/calculatoraiapp/docs
  *
  * Usage:
  *   [calculatorai slug="mortgage-calculator"]
  *   [calculatorai slug="compound-interest-calculator" lang="es" currency="EUR" theme="auto" width="1600"]
  *
- * Slugs: https://github.com/Gadzilla1995/calculatorai-docs/blob/main/docs/calculators.md
+ * Slugs: https://github.com/calculatoraiapp/docs/blob/main/docs/calculators.md
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

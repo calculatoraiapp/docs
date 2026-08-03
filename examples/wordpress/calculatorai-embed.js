@@ -2,7 +2,7 @@
  * CalculatorAI embed — auto-resize + viewport forwarding.
  * Handles every [calculatorai] shortcode on the page, including several at once.
  *
- * MIT licensed. https://github.com/Gadzilla1995/calculatorai-docs
+ * MIT licensed. https://github.com/calculatoraiapp/docs
  */
 (function () {
   'use strict'

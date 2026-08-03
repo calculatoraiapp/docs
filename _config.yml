@@ -11,8 +11,8 @@ description: >-
   guide to embedding any calculator on your own website for free.
 
 # Change these two if the repository is renamed or moved to an organisation.
-url: https://gadzilla1995.github.io
-baseurl: /calculatorai-docs
+url: https://calculatoraiapp.github.io
+baseurl: /docs
 
 theme: jekyll-theme-cayman
 lang: en

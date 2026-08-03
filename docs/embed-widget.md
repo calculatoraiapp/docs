@@ -204,7 +204,7 @@ Its anchor text is branded and identical for everybody on purpose. Distributing 
 | Blank frame | Content blocker, or a CSP on your site | Allow `https://calculatorai.app` in `frame-src` |
 | Widget in the wrong language | `lang` not set | Add `?lang=de` — without it the widget renders English |
 
-Still stuck? [Open an issue](https://github.com/Gadzilla1995/calculatorai-docs/issues) or use the [contact page](https://calculatorai.app/support/contact).
+Still stuck? [Open an issue](https://github.com/calculatoraiapp/docs/issues) or use the [contact page](https://calculatorai.app/support/contact).
 
 ---
 
