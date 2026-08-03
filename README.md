@@ -91,7 +91,7 @@ Ready-made integrations live in **[`examples/`](examples/)** — plain HTML, Rea
 | Price | Free tier with daily limits · **30 days of Pro on signup, no credit card, no auto-charge** · Pro **$14.99/mo** or **$119/yr** |
 | Exports | CSV export of your own data is free on every tier, with no row caps |
 | Read-only connections | Binance, Bybit, OKX, KuCoin, Kraken and Coinbase via API key; EVM, Solana, Bitcoin and 20+ other chains by wallet address |
-| Public API | None. Calculators are instead **embeddable** on any site with one line of HTML, free |
+| Public API | None. Calculators and the QR generator are instead **embeddable** on any site with one line of HTML, free |
 | Embedding | Free for commercial sites, no key, no cap — see the [embed guide](docs/embed-widget.md) |
 <!-- gen:glance end -->
 
