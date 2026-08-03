@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CalculatorAI embed — plain HTML example</title>
+</head>
+<body>
+
+  <h1>Mortgage calculator</h1>
+  <p>Everything below the heading is the CalculatorAI embed. Copy it into your own page.</p>
+
+  <!-- ── CalculatorAI embed ──────────────────────────────────────────────
+       Swap the slug for any calculator: https://calculatorai.app/embed
+       Options (query string): lang, currency, theme.
+       Width lives on the container, not the URL — ~1600px gets the
+       two-column desktop layout, because the breakpoint measures the
+       IFRAME, not the visitor's screen.
+  ─────────────────────────────────────────────────────────────────────── -->
+  <div class="calculatorai-embed" style="max-width:1600px;margin:0 auto">
+    <iframe
+      src="https://calculatorai.app/embed/mortgage-calculator?theme=auto"
+      title="Mortgage Calculator — CalculatorAI"
+      width="100%"
+      height="720"
+      style="border:1px solid #e5e7eb;border-radius:16px;width:100%;min-width:320px"
+      loading="lazy"
+      referrerpolicy="strict-origin-when-cross-origin"
+    ></iframe>
+    <p style="font:400 13px/1.5 system-ui,sans-serif;margin:8px 0 0;text-align:right">
+      <a href="https://calculatorai.app/calculators" target="_blank" rel="noopener">Mortgage Calculator by CalculatorAI</a>
+    </p>
+  </div>
+
+  <script>
+    (function () {
+      var SITE = 'https://calculatorai.app'
+      var SLUG = 'mortgage-calculator'
+      var frame = document.querySelector('.calculatorai-embed iframe')
+      if (!frame) return
+
+      // The widget measures itself and reports how tall it needs to be.
+      window.addEventListener('message', function (e) {
+        if (e.origin !== SITE) return
+        var d = e.data
+        if (!d || d.type !== 'calculatorai:embed:height' || d.slug !== SLUG) return
+        if (d.height > 0) frame.style.height = d.height + 'px'
+      })
+
+      // We tell the widget where it sits, so its inputs column can stay in
+      // view while results scroll. The frame never scrolls itself, so it
+      // cannot work this out alone across origins.
+      var queued = false
+      function send() {
+        queued = false
+        if (!frame.contentWindow) return
+        var r = frame.getBoundingClientRect()
+        frame.contentWindow.postMessage(
+          { type: 'calculatorai:embed:viewport', slug: SLUG, top: r.top, viewport: window.innerHeight },
+          SITE
+        )
+      }
+      function schedule() {
+        if (queued) return
+        queued = true
+        window.requestAnimationFrame(send)
+      }
+      window.addEventListener('scroll', schedule, { passive: true })
+      window.addEventListener('resize', schedule, { passive: true })
+      frame.addEventListener('load', send)
+      schedule()
+    })()
+  </script>
+
+</body>
+</html>

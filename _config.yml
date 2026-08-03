@@ -1,0 +1,41 @@
+### GitHub Pages configuration
+# Publishing this repo as a site: Settings → Pages → Source: "Deploy from a
+# branch" → main / (root). The README becomes the home page (jekyll-readme-index)
+# and relative .md links are rewritten to .html (jekyll-relative-links) — both
+# plugins are enabled by default on GitHub Pages.
+
+title: CalculatorAI Documentation
+description: >-
+  Documentation for CalculatorAI — 75 free calculators, 9 trackers and 11
+  document generators with an AI copilot, in 10 languages. Includes the full
+  guide to embedding any calculator on your own website for free.
+
+# Change these two if the repository is renamed or moved to an organisation.
+url: https://gadzilla1995.github.io
+baseurl: /calculatorai-docs
+
+theme: jekyll-theme-cayman
+lang: en
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-relative-links
+  - jekyll-readme-index
+
+relative_links:
+  enabled: true
+  collections: true
+
+readme_index:
+  enabled: true
+  remove_originals: false
+
+author: CalculatorAI
+twitter:
+  username: calculatoraiapp
+  card: summary_large_image
+
+exclude:
+  - LICENSE
+  - .gitignore
