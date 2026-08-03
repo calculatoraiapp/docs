@@ -1,12 +1,38 @@
 # CalculatorAI — Documentation
 
 <!-- gen:summary start -->
-**[CalculatorAI](https://calculatorai.app)** is an AI-powered financial workspace: **75 calculators**, **9 trackers** and **11 document generators** under one account, in **10 languages**, with an AI copilot woven through all of them.
+**[CalculatorAI](https://calculatorai.app)** is a personal financial workspace — not a directory of calculators. **75 calculators**, **9 trackers** and **11 document generators** live under one account in **10 languages**, and an AI copilot reads the numbers you actually put in.
 <!-- gen:summary end -->
 
-This repository is the public documentation for the platform — what it does, how each number is calculated, what the AI can and cannot see, and how to **embed any calculator on your own website with one line of HTML**, for free.
+> *"We are building the first AI-powered platform that serves as a personal financial decisions hub for millions of people."*
+
+This repository is the public documentation for that platform — what it does, how each number is calculated, what the AI can and cannot see, and how to **embed any calculator on your own website with one line of HTML**, for free.
 
 > **Website:** <https://calculatorai.app> · **Embed builder:** <https://calculatorai.app/embed> · **Pricing:** <https://calculatorai.app/pricing>
+
+---
+
+## What it is — and what it deliberately isn't
+
+CalculatorAI is **not a website**. It is **not a directory**. It is **not a collection of calculators**.
+
+Those exist in abundance, and they all stop at the same place: they give you a number and forget you. You compute a mortgage payment, close the tab, and next month you start from zero — retyping the same figures into the same box, with no record that you ever asked.
+
+CalculatorAI is a **workspace your numbers live in**:
+
+| | |
+|---|---|
+| **Calculate** | the numbers that actually decide something — what a mortgage costs, whether a trade was good, what a client owes you |
+| **Save & store** | every result, scenario and document, in an account only you can read |
+| **Analyze** | performance over time, not a snapshot — an equity curve, a cash-flow trend, a debt-free date that moves as you pay |
+| **Plan** | future milestones against your real figures, with scenarios compared side by side |
+| **Import** | a paystub, a bank statement, a broker screenshot or a receipt — the AI reads the document and fills the fields |
+| **Ask** | an assistant that already knows your portfolio, your trades, your budget and your overdue invoices |
+| **Return** | to all of it, whenever you need, from any device |
+
+That is the difference between a calculator and a decisions hub. A calculator answers the question you typed. A workspace remembers what you decided, notices what changed since you last looked, and tells you about it before you ask.
+
+The [calculators](docs/calculators.md) are the doorway — free, fast, no account, embeddable anywhere. The [trackers](docs/trackers.md) and the [AI](docs/ai-assistant.md) are what makes staying worth it.
 
 ---
 
@@ -16,8 +42,8 @@ This repository is the public documentation for the platform — what it does, h
 |---|---|
 | **[Embed a calculator on your site](docs/embed-widget.md)** | The one-line snippet, every option, the resize protocol, framework examples, terms of use |
 | **[Calculator index](docs/calculators.md)** | Every calculator with a direct link and its embed slug, grouped by category |
-| **[Trackers](docs/trackers.md)** | The 9 long-running trackers and what each one records |
-| **[Document generators](docs/documents.md)** | 11 business document tools (invoice, quote, PO, receipt…) |
+| **[Trackers](docs/trackers.md)** | The long-running trackers and what each one records |
+| **[Document generators](docs/documents.md)** | The business document tools (invoice, quote, PO, receipt…) |
 | **[AI assistant](docs/ai-assistant.md)** | The six AI surfaces, what each one knows, and the privacy boundary |
 | **[Pricing & limits](docs/pricing-and-limits.md)** | Free vs Pro, the 30-day no-card trial, exact caps |
 | **[Security & privacy](docs/security-and-privacy.md)** | Encryption, row-level isolation, read-only connections, no AI training |
@@ -61,10 +87,8 @@ Ready-made integrations live in **[`examples/`](examples/)** — plain HTML, Rea
 | Calculators | **75**, across **13 categories** |
 | Trackers | **9** — Trading Journal, Portfolio Tracker, Invoices Tracker, Expenses Tracker, QR Codes, Rental Income Tracker, Budget Tracker, Debt Payoff Tracker, Habit Tracker |
 | Document generators | **11** — QR Code Generator, Invoice Generator, Quote Template, Receipt Generator, Credit Note Template, Purchase Order Template, Proforma Invoice, Delivery Note Template, Debit Note Template, Timesheet Template, Commercial Invoice |
-| Languages | **10** — en, ru, zh, es, de, it, fr, ja, pt, tr |
-| Price | Free tier with daily limits · **30 days of Pro on signup, no credit card, no auto-charge** · Pro **<!-- gen:glance start -->
-4.99/mo** or **<!-- gen:glance start -->
-19/yr** |
+| Languages | **10** — English, Russian, Chinese, Spanish, German, Italian, French, Japanese, Portuguese, Turkish |
+| Price | Free tier with daily limits · **30 days of Pro on signup, no credit card, no auto-charge** · Pro **$14.99/mo** or **$119/yr** |
 | Exports | CSV export of your own data is free on every tier, with no row caps |
 | Read-only connections | Binance, Bybit, OKX, KuCoin, Kraken and Coinbase via API key; EVM, Solana, Bitcoin and 20+ other chains by wallet address |
 | Public API | None. Calculators are instead **embeddable** on any site with one line of HTML, free |
