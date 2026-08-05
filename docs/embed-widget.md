@@ -213,7 +213,7 @@ Same snippet, same options, one different slug:
 
 Your readers get the whole generator: URL, text, WiFi, vCard, email, phone, SMS, WhatsApp, location, event and crypto payloads; background and foreground colours with an optional gradient; eight corner frames, eight corner centres and ten body shapes; four error-correction levels; a centre logo they upload or pick from the icon set; adjustable quiet zone — and **PNG (1200×1200) and vector SVG download**. No account, no watermark, no cap.
 
-**Why this one and not the invoice generator.** Everything above happens in your reader's browser — the matrix, the SVG, the canvas that produces the PNG. The widget makes no request of ours no matter how many codes it produces, which is what makes it free to hand out. The document generators render their PDF on a server, so they are not embeddable yet; that's an engineering constraint, not a licensing one.
+**Why this one qualifies.** Everything above happens in your reader's browser — the matrix, the SVG, the canvas that produces the PNG. The widget makes no request of ours no matter how many codes it produces, which is what makes it free to hand out.
 
 **Height.** The builder gives this widget a fallback `height` of **1400**, not the 720 a calculator gets. That number only matters until the resize script reports the real height — but it matters permanently on a host that strips scripts, and 1400 is what the widget actually measures at its default width (1355px, rounded up). On a narrow column it stacks and grows to about 1940px, so the script is still worth having.
 
@@ -223,7 +223,33 @@ Your readers get the whole generator: URL, text, WiFi, vCard, email, phone, SMS,
 
 That boundary is deliberate and it works in your favour too: your reader gets a genuinely complete free tool, and only the person who needs printing-proof codes leaves your page.
 
-## 10. Troubleshooting
+## 10. The invoice generator widget
+
+Same snippet again, one more slug:
+
+```html
+<iframe
+  src="https://calculatorai.app/embed/invoice-generator?theme=auto&currency=GBP"
+  title="Invoice Generator — CalculatorAI"
+  width="100%"
+  height="1720"
+  style="border:1px solid #e5e7eb;border-radius:16px;min-width:320px"
+  loading="lazy"
+  referrerpolicy="strict-origin-when-cross-origin"
+></iframe>
+```
+
+Your readers get the full editor — sender and client blocks, shipping address, line items, tax, discount, notes and terms, five PDF themes, a logo they upload, and any of the supported currencies — and they can **download a finished PDF invoice with no account and no watermark**.
+
+**Why this works, when it didn't before.** A widget only ships when everything it does happens in the reader's browser, and the invoice PDF used to be rendered on our server. It isn't any more: the widget builds the document locally, using the same templates the site renders. Your traffic can't run up a bill on our side, which is the whole reason we can hand this out for free.
+
+**Currency is worth pinning here.** Unlike a QR code, an invoice is money. Set `currency=GBP` (or EUR, USD, CAD, AUD…) and your readers start in the right one instead of changing it every time.
+
+**Height.** The builder's fallback is **1720** — taller than the QR widget, because the canvas is a full page of line items and totals rather than a preview tile. As always the resize script replaces that with the real height within a moment; the fallback only matters permanently on a host that strips scripts, which most block editors do.
+
+**What's left out.** Saving an invoice, emailing it to a client, and the saved-client directory. Those need an account, and nobody can sign in inside a third-party iframe because browsers partition storage there — so those buttons lead to the full tool instead of dead-ending. Downloading the PDF, which is what most readers actually came for, needs nothing.
+
+## 11. Troubleshooting
 
 | Symptom | Cause | Fix |
 |---|---|---|

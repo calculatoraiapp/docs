@@ -46,7 +46,7 @@ The generator makes both kinds. A **static** code encodes the destination direct
 
 Free includes one active dynamic code so you can run the full loop; the generator itself — static codes, colours, shapes, logo, PNG/SVG export — is free and needs no account.
 
-**The QR generator is also embeddable.** It's the one tool here that can run inside someone else's site as a widget, because everything it does happens in the visitor's browser. The other ten generators render their PDF on a server, so they aren't embeddable yet. [Details](embed-widget.md#9-the-qr-code-generator-widget).
+**The QR generator and the invoice generator are embeddable.** Both can run inside someone else's site as a widget, because everything they do — including the invoice PDF — happens in the visitor's browser. The remaining generators render their PDF on a server, so they aren't embeddable yet. Details: [QR widget](embed-widget.md#9-the-qr-code-generator-widget) · [invoice widget](embed-widget.md#10-the-invoice-generator-widget).
 
 ---
 
