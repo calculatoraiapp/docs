@@ -223,9 +223,9 @@ Your readers get the whole generator: URL, text, WiFi, vCard, email, phone, SMS,
 
 That boundary is deliberate and it works in your favour too: your reader gets a genuinely complete free tool, and only the person who needs printing-proof codes leaves your page.
 
-## 10. The invoice generator widget
+## 10. The document generator widgets
 
-Same snippet again, one more slug:
+Same snippet again, one slug per generator — `invoice-generator`, `quote-template`, `receipt-generator`, `credit-note-template`, `debit-note-template`, `purchase-order-template`, `proforma-invoice`, `delivery-note-template`, `timesheet-template`, `commercial-invoice`:
 
 ```html
 <iframe
@@ -239,15 +239,15 @@ Same snippet again, one more slug:
 ></iframe>
 ```
 
-Your readers get the full editor — sender and client blocks, shipping address, line items, tax, discount, notes and terms, five PDF themes, a logo they upload, and any of the supported currencies — and they can **download a finished PDF invoice with no account and no watermark**.
+Your readers get the full editor — sender and client blocks, shipping address, line items, tax, discount, notes and terms, five PDF themes, a logo they upload, and any of the supported currencies — and they can **download a finished PDF with no account and no watermark**.
 
-**Why this works, when it didn't before.** A widget only ships when everything it does happens in the reader's browser, and the invoice PDF used to be rendered on our server. It isn't any more: the widget builds the document locally, using the same templates the site renders. Your traffic can't run up a bill on our side, which is the whole reason we can hand this out for free.
+**Why this works, when it didn't before.** A widget only ships when everything it does happens in the reader's browser, and these PDFs used to be rendered on our server. They aren't any more: the widget builds the document locally, using the same templates the site renders. Your traffic can't run up a bill on our side, which is the whole reason we can hand these out for free.
 
 **Currency is worth pinning here.** Unlike a QR code, an invoice is money. Set `currency=GBP` (or EUR, USD, CAD, AUD…) and your readers start in the right one instead of changing it every time.
 
 **Height.** The builder's fallback is **1720** — taller than the QR widget, because the canvas is a full page of line items and totals rather than a preview tile. As always the resize script replaces that with the real height within a moment; the fallback only matters permanently on a host that strips scripts, which most block editors do.
 
-**What's left out.** Saving an invoice, emailing it to a client, and the saved-client directory. Those need an account, and nobody can sign in inside a third-party iframe because browsers partition storage there — so those buttons lead to the full tool instead of dead-ending. Downloading the PDF, which is what most readers actually came for, needs nothing.
+**What's left out.** Saving the document, emailing it to a client, the saved-client directory, and AI-assisted line items — the last is hidden rather than shown, since it would only advertise something a reader in an iframe cannot reach. Those need an account, and nobody can sign in inside a third-party iframe because browsers partition storage there — so those buttons lead to the full tool instead of dead-ending. Downloading the PDF, which is what most readers actually came for, needs nothing.
 
 ## 11. Troubleshooting
 
