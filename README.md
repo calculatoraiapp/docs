@@ -1,7 +1,7 @@
 # CalculatorAI — Documentation
 
 <!-- gen:summary start -->
-**[CalculatorAI](https://calculatorai.app)** is a personal financial workspace — not a directory of calculators. **75 calculators**, **9 trackers** and **11 document generators** live under one account in **10 languages**, and an AI copilot reads the numbers you actually put in.
+**[CalculatorAI](https://calculatorai.app)** is a personal financial workspace — not a directory of calculators. **75 calculators**, **10 trackers** and **11 document generators** live under one account in **10 languages**, and an AI copilot reads the numbers you actually put in.
 <!-- gen:summary end -->
 
 > *"We are building the first AI-powered platform that serves as a personal financial decisions hub for millions of people."*
@@ -85,7 +85,7 @@ Ready-made integrations live in **[`examples/`](examples/)** — plain HTML, Rea
 | | |
 |---|---|
 | Calculators | **75**, across **13 categories** |
-| Trackers | **9** — Trading Journal, Portfolio Tracker, Invoices Tracker, Expenses Tracker, QR Codes, Rental Income Tracker, Budget Tracker, Debt Payoff Tracker, Habit Tracker |
+| Trackers | **10** — Trading Journal, Portfolio Tracker, Invoices Tracker, Expenses Tracker, QR Codes, Rental Income Tracker, Budget Tracker, Debt Payoff Tracker, Net Worth Tracker, Habit Tracker |
 | Document generators | **11** — QR Code Generator, Invoice Generator, Quote Template, Receipt Generator, Credit Note Template, Purchase Order Template, Proforma Invoice, Delivery Note Template, Debit Note Template, Timesheet Template, Commercial Invoice |
 | Languages | **10** — English, Russian, Chinese, Spanish, German, Italian, French, Japanese, Portuguese, Turkish |
 | Price | Free tier with daily limits · **30 days of Pro on signup, no credit card, no auto-charge** · Pro **$14.99/mo** or **$119/yr** |

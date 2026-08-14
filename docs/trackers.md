@@ -20,6 +20,7 @@ Index page: **<https://calculatorai.app/trackers>**
 | [Rental Income Tracker](https://calculatorai.app/rental-income) | `/rental-income` | Per-property rental cash-flow, occupancy, expenses, repairs and ROI. |
 | [Budget Tracker](https://calculatorai.app/budget-tracker) | `/budget-tracker` | Zero-based budgeting, envelopes, sinking funds — built to keep you on plan. |
 | [Debt Payoff Tracker](https://calculatorai.app/debt-payoff-tracker) | `/debt-payoff-tracker` | Snowball / avalanche schedules, payoff dates, interest saved. |
+| [Net Worth Tracker](https://calculatorai.app/net-worth-tracker) | `/net-worth-tracker` | Everything you own minus everything you owe, read live from your other trackers. Any currency, monthly history, FIRE plan. |
 | [Habit Tracker](https://calculatorai.app/habit-tracker) | `/habit-tracker` | Free habit tracker for daily routines, streaks, weekly consistency and simple progress reviews. |
 <!-- gen:trackers end -->
 
