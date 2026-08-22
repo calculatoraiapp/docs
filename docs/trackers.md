@@ -14,6 +14,7 @@ Index page: **<https://calculatorai.app/trackers>**
 |---|---|---|
 | [Trading Journal](https://calculatorai.app/trading-journal) | `/trading-journal` | Log trades across crypto, forex, stock, futures, options, swing, scalping and sports betting. Live stats, win rate, P&L curve. |
 | [Portfolio Tracker](https://calculatorai.app/portfolio-tracker) | `/portfolio-tracker` | Free live portfolio tracker for stocks, crypto & ETFs. Auto-import, real-time prices, and smart AI insights in one place. |
+| [Dividend Tracker](https://calculatorai.app/dividend-tracker) | `/dividend-tracker` | Forecast monthly dividend income, track yield-on-cost, and project compounded growth. |
 | [Invoices Tracker](https://calculatorai.app/invoices) | `/invoices` | Issue, send, track paid / overdue invoices, and project receivables. |
 | [Expenses Tracker](https://calculatorai.app/expenses) | `/expenses` | Categorise expenses with auto-rules, attach receipts, export for accounting. |
 | [QR Codes](https://calculatorai.app/qr-codes) | `/qr-codes` | Manage your dynamic QR codes and track scans — devices, locations and trends. |

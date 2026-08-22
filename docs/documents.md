@@ -23,6 +23,9 @@ Index page: **<https://calculatorai.app/documents>**
 | [Debit Note Template](https://calculatorai.app/debit-note-template) | `/debit-note-template` | Issue debit memos to adjust invoices, request billing increases or correct ledger errors. |
 | [Timesheet Template](https://calculatorai.app/timesheet-template) | `/timesheet-template` | Track hourly service tasks, consultant hours and work logs, with total cost automatically computed. |
 | [Commercial Invoice](https://calculatorai.app/commercial-invoice) | `/commercial-invoice` | Generate commercial invoices for customs clearance, export documentation, and international shipping. |
+| [Expense Report](https://calculatorai.app/expense-report) | `/expense-report` | Generate expense reports for travel, mileage and out-of-pocket costs, and claim reimbursement. |
+| [Statement of Account](https://calculatorai.app/statement-of-account) | `/statement-of-account` | Summarize a customer’s open invoices, payments received and outstanding balance in one document. |
+| [Progress Billing](https://calculatorai.app/progress-billing) | `/progress-billing` | Bill for construction work completed this period, withhold retainage and show the payment due now. |
 <!-- gen:documents end -->
 
 ---
