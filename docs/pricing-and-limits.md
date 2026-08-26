@@ -71,6 +71,10 @@ These are stated publicly at [calculatorai.app/promises](https://calculatorai.ap
 | Debt Payoff Tracker — simulator, all strategies, scenarios, CSV export | ✓ | ✓ |
 | Debt Payoff Tracker — AI coach & statement scanning | — | ✓ |
 | QR Codes Tracker — dynamic codes | 1 active | ∞ + analytics |
+| QR Codes — scans, destination changes | unlimited | unlimited |
+| QR Codes — frames, all 24 content types, PNG + SVG | ✓ | ✓ |
+| QR Codes — folders, tags, campaign parameters (UTM) | — | ✓ |
+| QR Codes — your own short-link domain | — | ✓ |
 | Site-wide AI assistant | 5 / day | ∞ |
 | Photo / screenshot upload (AI prefill) | 2 / day | ∞ |
 

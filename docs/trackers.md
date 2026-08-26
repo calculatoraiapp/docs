@@ -105,6 +105,14 @@ The management side of the [QR generator](https://calculatorai.app/qr-code-gener
 
 Repoint any code to a new URL without reprinting, pause or retire it, and read scan analytics: totals, a 30-day trend, and breakdowns by country, device and browser. **Privacy-first** — scans record coarse location and device class only; the raw IP is never stored, just an irreversible fingerprint.
 
+Pro adds the layer you need once there are more than a handful of codes:
+
+- **Folders and tags** — one folder per code, filed from the sidebar; tags cut across folders. Personal to your account: there are no team seats or roles here.
+- **Campaign parameters (UTM)** — attached to the destination at the moment someone scans, so a printed code shows up in your own analytics as its own source instead of as direct traffic. A parameter already in your URL is never overwritten.
+- **Your own short-link domain** — point a hostname you own at the redirect with one DNS record and new codes print as `qr.yourcompany.com/AbC123`. Codes already printed keep the hostname they were printed with; nothing on paper is ever silently moved.
+
+**Nothing on Pro is metered:** no cap on dynamic codes, no cap on scans, no cap on how often you re-point a code.
+
 ---
 
 ## How trackers connect to calculators

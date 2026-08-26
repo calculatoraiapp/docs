@@ -49,6 +49,8 @@ The generator makes both kinds. A **static** code encodes the destination direct
 
 Free includes one active dynamic code so you can run the full loop; the generator itself — static codes, colours, shapes, logo, PNG/SVG export — is free and needs no account.
 
+**Frames.** 17 print-ready designs put a call to action next to the code — a bar underneath, a filled sticker, a badge, a speech bubble, corner brackets, a ribbon, a ticket, a phone mock-up and more — with your own caption, colour, thickness and line style. The frame is part of the PNG *and* the vector SVG, and it is always drawn outside the code's quiet zone, so adding one can never make a code harder to scan.
+
 **Every generator here is embeddable.** All of them can run inside someone else's site as a widget, because everything they do — including building the PDF — happens in the visitor's browser. Details: [QR widget](embed-widget.md#9-the-qr-code-generator-widget) · [document widgets](embed-widget.md#10-the-document-generator-widgets).
 
 ---
