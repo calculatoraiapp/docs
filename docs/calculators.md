@@ -13,11 +13,22 @@ Every calculator below is also **embeddable** on your own site — take the slug
 Every calculator page carries, below the result: a component-by-component breakdown, the formula written out in plain language, worked examples, and an FAQ — all visible without signing in.
 
 <!-- gen:calculators start -->
-**75 calculators**, grouped by category. Every one is free, needs no account, works in 10 languages, and is embeddable on your own site.
+**82 calculators**, grouped by category. Every one is free, needs no account, works in 10 languages, and is embeddable on your own site.
 
-**Jump to:** [Debt Crusader](#debt-crusader) · [Crypto Master](#crypto-master) · [Mindful Spender](#mindful-spender) · [Solo-preneur](#solo-preneur) · [Real Estate Mogul](#real-estate-mogul) · [FIRE & Wealth Builder](#fire--wealth-builder) · [Stock Investor](#stock-investor) · [Travel & Auto](#travel--auto) · [Life Milestones](#life-milestones) · [Body & Eco](#body--eco) · [Daily Essentials](#daily-essentials) · [Group & Social](#group--social)
+**Jump to:** [AI Costs & ROI](#ai-costs--roi) · [Debt Crusader](#debt-crusader) · [Crypto Master](#crypto-master) · [Mindful Spender](#mindful-spender) · [Solo-preneur](#solo-preneur) · [Real Estate Mogul](#real-estate-mogul) · [FIRE & Wealth Builder](#fire--wealth-builder) · [Stock Investor](#stock-investor) · [Travel & Auto](#travel--auto) · [Life Milestones](#life-milestones) · [Body & Eco](#body--eco) · [Daily Essentials](#daily-essentials) · [Group & Social](#group--social)
 
 ---
+
+## AI Costs & ROI
+
+| Calculator | Slug |
+|---|---|
+| [AI Subscription vs API Calculator](https://calculatorai.app/calculators/ai_costs/ai-subscription-vs-api-calculator) | `ai-subscription-vs-api-calculator` |
+| [AI Token Counter & Cost Calculator](https://calculatorai.app/calculators/ai_costs/ai-token-cost-calculator) | `ai-token-cost-calculator` |
+| [AI Image Generation Cost Calculator](https://calculatorai.app/calculators/ai_costs/ai-image-generation-cost-calculator) | `ai-image-generation-cost-calculator` |
+| [AI ROI Calculator](https://calculatorai.app/calculators/ai_costs/ai-roi-calculator) | `ai-roi-calculator` |
+| [AI Agent Cost Calculator](https://calculatorai.app/calculators/ai_costs/ai-agent-cost-calculator) | `ai-agent-cost-calculator` |
+| [AI Cost Calculator](https://calculatorai.app/calculators/ai_costs/ai-cost-calculator) | `ai-cost-calculator` |
 
 ## Debt Crusader
 
@@ -60,6 +71,7 @@ Every calculator page carries, below the result: a component-by-component breakd
 
 | Calculator | Slug |
 |---|---|
+| [Website Ad Revenue Calculator](https://calculatorai.app/calculators/solo_preneur/website-ad-revenue-calculator) | `website-ad-revenue-calculator` |
 | [Break-Even Calculator](https://calculatorai.app/calculators/solo_preneur/break-even-calculator) | `break-even-calculator` |
 | [Freelance Rate Calculator](https://calculatorai.app/calculators/solo_preneur/freelance-rate-calculator) | `freelance-rate-calculator` |
 | [Self-Employment Tax Calculator](https://calculatorai.app/calculators/solo_preneur/self-employment-calculator) | `self-employment-calculator` |
