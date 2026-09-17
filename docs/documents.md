@@ -13,6 +13,7 @@ Index page: **<https://calculatorai.app/documents>**
 | Document | URL | Use it for |
 |---|---|---|
 | [QR Code Generator](https://calculatorai.app/qr-code-generator) | `/qr-code-generator` | Create static or dynamic tracked QR codes under your own brand. Customize colors, add logo and track scans. |
+| [Password Generator](https://calculatorai.app/password-generator) | `/password-generator` | Strong random passwords, memorable passphrases and PINs — made in your browser, never sent anywhere. With honest crack-time estimates and a strength checker. |
 | [Invoice Generator](https://calculatorai.app/invoice-generator) | `/invoice-generator` | Create polished invoices with line items, tax, discount and your own branding. AI fills the items from a one-line description. |
 | [Quote Template](https://calculatorai.app/quote-template) | `/quote-template` | Send professional quotes to clients before the work starts. Convert to an invoice with one click. |
 | [Receipt Generator](https://calculatorai.app/receipt-generator) | `/receipt-generator` | Generate clean receipts for cash, card or bank transfer payments. Perfect for freelancers and small businesses. |
