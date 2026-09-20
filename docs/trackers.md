@@ -16,12 +16,14 @@ Index page: **<https://calculatorai.app/trackers>**
 | [Portfolio Tracker](https://calculatorai.app/portfolio-tracker) | `/portfolio-tracker` | Free live portfolio tracker for stocks, crypto & ETFs. Auto-import, real-time prices, and smart AI insights in one place. |
 | [Dividend Tracker](https://calculatorai.app/dividend-tracker) | `/dividend-tracker` | Forecast monthly dividend income, track yield-on-cost, and project compounded growth. |
 | [Business P&L Tracker](https://calculatorai.app/profit-loss-tracker) | `/profit-loss-tracker` | Live profit-and-loss for a small business: revenue by channel and product, cost of goods, expenses, margins, sales tax owed and goals. |
+| [Subscription Tracker](https://calculatorai.app/subscription-tracker) | `/subscription-tracker` | Every subscription in one place: what you pay per month and year, the next charge, trials about to convert, price rises, and what to cancel. |
 | [Invoices Tracker](https://calculatorai.app/invoices) | `/invoices` | Issue, send, track paid / overdue invoices, and project receivables. |
-| [Expenses Tracker](https://calculatorai.app/expenses) | `/expenses` | Categorise expenses with auto-rules, attach receipts, export for accounting. |
+| [Income & Expense Tracker](https://calculatorai.app/expenses) | `/expenses` | Every income and expense in one ledger — categories with auto-rules, receipts, budgets, statement import and export for accounting. |
 | [QR Codes](https://calculatorai.app/qr-codes) | `/qr-codes` | Manage your dynamic QR codes and track scans — devices, locations and trends. |
 | [Rental Income Tracker](https://calculatorai.app/rental-income) | `/rental-income` | Per-property rental cash-flow, occupancy, expenses, repairs and ROI. |
 | [Budget Tracker](https://calculatorai.app/budget-tracker) | `/budget-tracker` | Zero-based budgeting, envelopes, sinking funds — built to keep you on plan. |
 | [Debt Payoff Tracker](https://calculatorai.app/debt-payoff-tracker) | `/debt-payoff-tracker` | Snowball / avalanche schedules, payoff dates, interest saved. |
+| [Savings Goals](https://calculatorai.app/savings-goals-tracker) | `/savings-goals-tracker` | Set targets, auto-allocate per pay cycle, visualise progress. |
 | [Net Worth Tracker](https://calculatorai.app/net-worth-tracker) | `/net-worth-tracker` | Everything you own minus everything you owe, read live from your other trackers. Any currency, monthly history, FIRE plan. |
 | [Habit Tracker](https://calculatorai.app/habit-tracker) | `/habit-tracker` | Free habit tracker for daily routines, streaks, weekly consistency and simple progress reviews. |
 <!-- gen:trackers end -->
