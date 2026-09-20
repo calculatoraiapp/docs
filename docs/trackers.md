@@ -26,6 +26,7 @@ Index page: **<https://calculatorai.app/trackers>**
 | [Savings Goals](https://calculatorai.app/savings-goals-tracker) | `/savings-goals-tracker` | Set targets, auto-allocate per pay cycle, visualise progress. |
 | [Net Worth Tracker](https://calculatorai.app/net-worth-tracker) | `/net-worth-tracker` | Everything you own minus everything you owe, read live from your other trackers. Any currency, monthly history, FIRE plan. |
 | [Habit Tracker](https://calculatorai.app/habit-tracker) | `/habit-tracker` | Free habit tracker for daily routines, streaks, weekly consistency and simple progress reviews. |
+| [Event Planner](https://calculatorai.app/event-planner) | `/event-planner` | Budget, tasks and lists for a trip, a wedding, the holidays or a renovation — plan vs actual, a countdown and a checklist in one place. |
 <!-- gen:trackers end -->
 
 Every tracker also has a **public methodology handbook** explaining how each number is calculated and what the tool deliberately does not model — no login required. Index: <https://calculatorai.app/handbook>.
