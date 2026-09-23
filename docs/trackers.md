@@ -17,16 +17,18 @@ Index page: **<https://calculatorai.app/trackers>**
 | [Dividend Tracker](https://calculatorai.app/dividend-tracker) | `/dividend-tracker` | Forecast monthly dividend income, track yield-on-cost, and project compounded growth. |
 | [Business P&L Tracker](https://calculatorai.app/profit-loss-tracker) | `/profit-loss-tracker` | Live profit-and-loss for a small business: revenue by channel and product, cost of goods, expenses, margins, sales tax owed and goals. |
 | [Subscription Tracker](https://calculatorai.app/subscription-tracker) | `/subscription-tracker` | Every subscription in one place: what you pay per month and year, the next charge, trials about to convert, price rises, and what to cancel. |
-| [Invoices Tracker](https://calculatorai.app/invoices) | `/invoices` | Issue, send, track paid / overdue invoices, and project receivables. |
+| [Invoices Tracker](https://calculatorai.app/invoices) | `/invoices` | Issue and send invoices, see at a glance what is paid and what is overdue, chase the late ones, and project the receivables you are still owed. |
 | [Income & Expense Tracker](https://calculatorai.app/expenses) | `/expenses` | Every income and expense in one ledger — categories with auto-rules, receipts, budgets, statement import and export for accounting. |
 | [QR Codes](https://calculatorai.app/qr-codes) | `/qr-codes` | Manage your dynamic QR codes and track scans — devices, locations and trends. |
-| [Rental Income Tracker](https://calculatorai.app/rental-income) | `/rental-income` | Per-property rental cash-flow, occupancy, expenses, repairs and ROI. |
+| [Rental Income Tracker](https://calculatorai.app/rental-income) | `/rental-income` | Rental cash-flow per property: rent in, expenses and repairs out, occupancy, and the ROI each unit actually returns — not the one on the listing. |
 | [Budget Tracker](https://calculatorai.app/budget-tracker) | `/budget-tracker` | Zero-based budgeting, envelopes, sinking funds — built to keep you on plan. |
-| [Debt Payoff Tracker](https://calculatorai.app/debt-payoff-tracker) | `/debt-payoff-tracker` | Snowball / avalanche schedules, payoff dates, interest saved. |
-| [Savings Goals](https://calculatorai.app/savings-goals-tracker) | `/savings-goals-tracker` | Set targets, auto-allocate per pay cycle, visualise progress. |
+| [Debt Payoff Tracker](https://calculatorai.app/debt-payoff-tracker) | `/debt-payoff-tracker` | Snowball or avalanche, side by side: the payoff date for every debt, the order to pay them in, and how much interest each plan actually saves. |
+| [Savings Goals Tracker](https://calculatorai.app/savings-goals-tracker) | `/savings-goals-tracker` | Every savings goal in one place: the target, what is saved, the pace against the deadline, this month's contributions and a paycheck split that funds each goal. |
+| [Password Manager](https://calculatorai.app/password-manager) | `/password-manager` | A zero-knowledge vault for your logins: every entry is encrypted in your browser with a key the server never sees. Two-factor sign-in and free export. |
 | [Net Worth Tracker](https://calculatorai.app/net-worth-tracker) | `/net-worth-tracker` | Everything you own minus everything you owe, read live from your other trackers. Any currency, monthly history, FIRE plan. |
 | [Habit Tracker](https://calculatorai.app/habit-tracker) | `/habit-tracker` | Free habit tracker for daily routines, streaks, weekly consistency and simple progress reviews. |
 | [Event Planner](https://calculatorai.app/event-planner) | `/event-planner` | Budget, tasks and lists for a trip, a wedding, the holidays or a renovation — plan vs actual, a countdown and a checklist in one place. |
+| [Inventory Tracker](https://calculatorai.app/inventory-tracker) | `/inventory-tracker` | Stock for a small shop: the count is the sum of your deliveries, sales and stock-takes, so cost of goods, margin and turnover are real. Free restock list. |
 <!-- gen:trackers end -->
 
 Every tracker also has a **public methodology handbook** explaining how each number is calculated and what the tool deliberately does not model — no login required. Index: <https://calculatorai.app/handbook>.
