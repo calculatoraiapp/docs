@@ -29,6 +29,7 @@ Index page: **<https://calculatorai.app/trackers>**
 | [Habit Tracker](https://calculatorai.app/habit-tracker) | `/habit-tracker` | Free habit tracker for daily routines, streaks, weekly consistency and simple progress reviews. |
 | [Event Planner](https://calculatorai.app/event-planner) | `/event-planner` | Budget, tasks and lists for a trip, a wedding, the holidays or a renovation — plan vs actual, a countdown and a checklist in one place. |
 | [Inventory Tracker](https://calculatorai.app/inventory-tracker) | `/inventory-tracker` | Stock for a small shop: the count is the sum of your deliveries, sales and stock-takes, so cost of goods, margin and turnover are real. Free restock list. |
+| [Client Booking](https://calculatorai.app/booking-tracker) | `/booking-tracker` | Online booking for salons, clinics, tutors and consultants: clients pick an open slot from your link, no account needed. No double bookings, email reminders. |
 <!-- gen:trackers end -->
 
 Every tracker also has a **public methodology handbook** explaining how each number is calculated and what the tool deliberately does not model — no login required. Index: <https://calculatorai.app/handbook>.
