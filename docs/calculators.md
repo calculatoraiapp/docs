@@ -13,7 +13,7 @@ Every calculator below is also **embeddable** on your own site — take the slug
 Every calculator page carries, below the result: a component-by-component breakdown, the formula written out in plain language, worked examples, and an FAQ — all visible without signing in.
 
 <!-- gen:calculators start -->
-**82 calculators**, grouped by category. Every one is free, needs no account, works in 10 languages, and is embeddable on your own site.
+**83 calculators**, grouped by category. Every one is free, needs no account, works in 10 languages, and is embeddable on your own site.
 
 **Jump to:** [AI Costs & ROI](#ai-costs--roi) · [Debt Crusader](#debt-crusader) · [Crypto Master](#crypto-master) · [Mindful Spender](#mindful-spender) · [Solo-preneur](#solo-preneur) · [Real Estate Mogul](#real-estate-mogul) · [FIRE & Wealth Builder](#fire--wealth-builder) · [Stock Investor](#stock-investor) · [Travel & Auto](#travel--auto) · [Life Milestones](#life-milestones) · [Body & Eco](#body--eco) · [Daily Essentials](#daily-essentials) · [Group & Social](#group--social)
 
@@ -140,6 +140,7 @@ Every calculator page carries, below the result: a component-by-component breakd
 |---|---|
 | [BMI Calculator](https://calculatorai.app/calculators/body_eco/bmi-calculator) | `bmi-calculator` |
 | [Calorie Deficit Calculator](https://calculatorai.app/calculators/body_eco/calorie-deficit-calculator) | `calorie-deficit-calculator` |
+| [One Rep Max Calculator](https://calculatorai.app/calculators/body_eco/one-rep-max-calculator) | `one-rep-max-calculator` |
 | [Target Weight Calculator](https://calculatorai.app/calculators/body_eco/target-weight-calculator) | `target-weight-calculator` |
 | [Carbon Footprint Calculator](https://calculatorai.app/calculators/body_eco/carbon-footprint-calculator) | `carbon-footprint-calculator` |
 | [Water Usage Calculator](https://calculatorai.app/calculators/body_eco/water-usage-calculator) | `water-usage-calculator` |
